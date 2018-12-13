@@ -5,22 +5,22 @@
 <web-app>
     <display-name>Archetype Created Web Application</display-name>
 
-    <!--编码过滤器-->
-    <filter>
-        <filter-name>characterFilter</filter-name>
-        <filter-class>com.hht.CharacterFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>characterFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
-
     <servlet>
-        <servlet-name>test</servlet-name>
-        <servlet-class>com.hht.TestServlet</servlet-class>
+        <servlet-name>qqLogin</servlet-name>
+        <servlet-class>com.hht.QQLoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>callBack</servlet-name>
+        <servlet-class>com.hht.CallBackServlet</servlet-class>
+    </servlet>
+    
+    
     <servlet-mapping>
-        <servlet-name>test</servlet-name>
-        <url-pattern>/test</url-pattern>
+        <servlet-name>qqLogin</servlet-name>
+        <url-pattern>/qqLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>callBack</servlet-name>
+        <url-pattern>/callBack</url-pattern>
     </servlet-mapping>
 </web-app>
