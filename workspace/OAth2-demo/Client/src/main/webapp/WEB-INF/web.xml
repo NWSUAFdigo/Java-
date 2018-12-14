@@ -13,6 +13,10 @@
         <servlet-name>callBack</servlet-name>
         <servlet-class>com.hht.CallBackServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>com.hht.HelloServlet</servlet-class>
+    </servlet>
     
     
     <servlet-mapping>
@@ -22,5 +26,9 @@
     <servlet-mapping>
         <servlet-name>callBack</servlet-name>
         <url-pattern>/callBack</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 </web-app>

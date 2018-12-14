@@ -12,12 +12,16 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 
 public class CallBackServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.setCharacterEncoding("utf-8");
+        resp.setCharacterEncoding("utf-8");
+
         // 授权成功, 进行回调. 此时拿到授权码, 向服务器换取token
         String getTokenUrl = "http://localhost:8080/server/getToken?code=" + req.getParameter("code");
         // 发送http请求, 获取token
@@ -30,11 +34,11 @@ public class CallBackServlet extends HttpServlet {
         JSONObject jsonObject = JSON.parseObject(userInfo);
 
         // 将获取到的数据返回给前台
-        String helloUrl = "hello.jsp";
+        String helloUrl = "hello";
         resp.sendRedirect(helloUrl + "?name=" + jsonObject.getString("name")
                 + "&age=" + jsonObject.getString("age")
                 + "&sex=" + jsonObject.getString("sex")
-                + "&errorMsg=" + URLEncoder.encode(jsonObject.getString("errorMsg"), "GBK"));
+                + "&errorMsg=" + jsonObject.getString("errorMsg"));
     }
 
     private String sendHttpRequest(String urlStr) throws IOException {
