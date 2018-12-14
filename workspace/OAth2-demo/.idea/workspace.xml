@@ -7,19 +7,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce322e9a-b759-4106-b70c-22c5250534b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/com/hht/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/hht/CallBackServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/hht/CallBackServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/Client.war" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/Client.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/Client/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/Client/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/Client/WEB-INF/classes/com/hht/CallBackServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/Client/WEB-INF/classes/com/hht/CallBackServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/classes/com/hht/CallBackServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/com/hht/CallBackServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OAth2-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/Server.war" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/Server.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/target/Server/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/Server/META-INF/MANIFEST.MF" afterDir="false" />
-    </list>
+    <list default="true" id="ce322e9a-b759-4106-b70c-22c5250534b5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Client/target/" />
@@ -77,6 +65,7 @@
     <session id="1762371292">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -131,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/main/java/com/hht/CallBackServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="282">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -465,16 +454,15 @@
       <workItem from="1544540674623" duration="17000" />
       <workItem from="1544621975353" duration="1112000" />
       <workItem from="1544706290507" duration="7323000" />
-      <workItem from="1544753863282" duration="1550000" />
+      <workItem from="1544753863282" duration="1610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11744000" />
+    <option name="totallyTimeSpent" value="11804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1367" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Learn" weight="0.32962668" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0969023" />
@@ -487,7 +475,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3992157" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -669,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/main/java/com/hht/CallBackServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="282">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
