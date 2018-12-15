@@ -18,7 +18,7 @@ public class GetUserInfoServlet extends HttpServlet {
         String token = req.getParameter("token");
         // 校验token
         Map<String, String> userInfo = new HashMap<>();
-        if ("abcdef".equals(token)) {
+        if ("abcdefg".equals(token)) {
             // 校验通过, 发送json数据
             userInfo.put("name", "wudi");
             userInfo.put("age", "18");

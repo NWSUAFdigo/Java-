@@ -26,7 +26,7 @@
 <body>
 <h2>豆瓣</h2>
 <form action="qqLogin" method="post">
-    <input type="submit" value="QQ登录">
+    <input type="submit" value="使用QQ授权登录">
 </form>
 </body>
 </html>
