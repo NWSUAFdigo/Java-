@@ -8,15 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce322e9a-b759-4106-b70c-22c5250534b5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/hht/CallBackServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/hht/CallBackServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/hht/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/hht/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/webapp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/webapp/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/target/Client.war" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/Client.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/Client/WEB-INF/classes/com/hht/CallBackServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/Client/WEB-INF/classes/com/hht/CallBackServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/target/classes/com/hht/CallBackServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/com/hht/CallBackServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/hht/GetUserInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/hht/GetUserInfoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/Client/WEB-INF/classes/com/hht/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/Client/WEB-INF/classes/com/hht/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/classes/com/hht/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/com/hht/HelloServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/target/Server.war" beforeDir="false" afterPath="$PROJECT_DIR$/Server/target/Server.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -84,34 +80,47 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="531" />
+          <entry key="java" value="544" />
           <entry key="jsp" value="48" />
           <entry key="xml" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="531" />
+          <entry key="JAVA" value="544" />
           <entry key="JSP" value="48" />
           <entry key="XML" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="5" />
           <entry key="jsp" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="5" />
           <entry key="JSP" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/src/main/java/com/hht/HelloServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -148,9 +157,9 @@
         <option value="$PROJECT_DIR$/Client/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Client/src/main/java/com/hht/CallBackServlet.java" />
         <option value="$PROJECT_DIR$/Server/src/main/java/com/hht/GetUserInfoServlet.java" />
-        <option value="$PROJECT_DIR$/Client/src/main/java/com/hht/HelloServlet.java" />
         <option value="$PROJECT_DIR$/Client/src/main/webapp/hello.jsp" />
         <option value="$PROJECT_DIR$/Client/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/com/hht/HelloServlet.java" />
       </list>
     </option>
   </component>
@@ -204,49 +213,6 @@
             <path>
               <item name="OAth2-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="OAth2-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OAth2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OAth2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OAth2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OAth2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OAth2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OAth2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OAth2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OAth2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OAth2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OAth2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hht" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OAth2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OAth2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OAth2-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -375,17 +341,18 @@
       <workItem from="1544621975353" duration="1112000" />
       <workItem from="1544706290507" duration="7323000" />
       <workItem from="1544753863282" duration="1610000" />
-      <workItem from="1544837635777" duration="1662000" />
+      <workItem from="1544837635777" duration="2850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13466000" />
+    <option name="totallyTimeSpent" value="14654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1367" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120730735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120730735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -396,7 +363,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992157" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3992157" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -542,26 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/com/hht/CallBackServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/com/hht/HelloServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/src/main/java/com/hht/GetUserInfoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -598,6 +545,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/com/hht/CallBackServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/com/hht/HelloServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
